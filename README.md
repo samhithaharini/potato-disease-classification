@@ -16,19 +16,6 @@ The model is trained on the PlantVillage dataset and integrated into a Streamlit
 
 ---
 
-###  Model Details
-
-- Model Type: CNN (Convolutional Neural Network)
-- Input Shape: 256 x 256 x 3
-- Number of Classes: 3
-- Activation Functions:
-  - ReLU (hidden layers)
-  - Softmax (output layer)
-- Loss Function: Sparse Categorical Crossentropy
-- Optimizer: Adam
-
----
-
 ###  Dataset
 
 - Dataset: PlantVillage
@@ -52,6 +39,19 @@ The model is trained on the PlantVillage dataset and integrated into a Streamlit
 2. Model processes the image (resize + normalize)  
 3. CNN extracts features  
 4. Prediction is generated with confidence score  
+
+---
+
+### Output
+
+1. Early Blight:
+   !(Early Blight)[early.png]
+
+2. Healthy leaf:
+   !(Healthy)[healthy.png]
+
+3. Late Blight:
+   !(Late Blight)[late.png]
 
 ---
 

@@ -45,12 +45,18 @@ The model is trained on the PlantVillage dataset and integrated into a Streamlit
 ### Output
 
 1. Early Blight:
+
+   
    ![Early Blight](early.png)
 
 2. Healthy leaf:
+
+
    ![Healthy](healthy.png)
 
 3. Late Blight:
+ 
+
    ![Late Blight](late.png)
 
 ---
